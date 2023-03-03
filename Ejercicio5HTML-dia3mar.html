@@ -1,0 +1,61 @@
+<!-- Ejercicio 5
+Crea una página web que contenga un formulario con los siguientes campos de
+información -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba de HTML5</title>
+</head>
+
+<body>
+
+    <h1>Formulario de prueba de HTML5</h1>
+
+    <form action="#" method="get">
+        <label for="nombre" autofocus>Nombre:</label>
+        <input type="text" id="nombre" name="nombreUsuario" required autofocus>
+        <br><br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correoUsuario" required>
+        <br><br>
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="urlUsuario" placeholder="Escribe la URL de tu página web personal">
+        <br><br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fechaUsuario">
+        <br><br>
+        <label for="tiempo">Tiempo:</label>
+        <input type="time" id="tiempo" name="tiempoUsuario">
+        <br><br>
+        <label for="fechaYHora">Fecha y Hora:</label>
+        <input type="datetime-local" id="fechaYHora" name="fechaYHoraUsuario">
+        <br><br>
+        <label for="mes">Mes:</label>
+        <input type="month" id="mes">
+        <br><br>
+        <label for="semana">Semana:</label>
+        <input type="week" id="semana" name="semanaUsuario">
+        <br><br>
+        <label for="numero">Número (min-10, max10):</label>
+        <input type="number" id="numero" name="numeroUsuario" min="-10" max="10">
+        <br><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefonoUsuario">
+        <br><br>
+        <label for="busqueda">Término de búsqueda:</label>
+        <input type="search" id="busqueda" name="busquedaUsuario">
+        <br><br>
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="colorUsuario">
+        <br><br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
